@@ -1,0 +1,191 @@
+@import url(orderMeatDetail.css);
+
+.order-meat {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 130px;
+  
+  background: url(../../../public/images/meat/main.jpg) no-repeat 50%/cover;
+  background-attachment: fixed;
+}
+
+.order-meat .order-meat-con {
+  flex: 0 1 75%;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1vw;
+
+  padding: 10px 0 25px 0;
+}
+
+.order-meat .order-meat-con .order-meat-title {
+  width: 95%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* border: 1px solid; */
+
+  box-shadow: inset 0 -2px 0 black;
+}
+
+.order-meat .order-meat-con .order-meat-title h1 {
+  padding: 15px 0;
+}
+
+.order-meat .order-meat-con .order-meat-mid{
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.order-meat .order-meat-con .order-meat-mid .search {
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1vw;
+}
+
+.order-meat .order-meat-con .order-meat-mid .search select {
+  padding: 4px 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  width: 120px;
+  height: 30px;
+}
+
+.order-meat .order-meat-con .order-meat-item {
+  width: 65vw;
+  height: auto;
+  min-height: 800px;
+  border: 0.2px solid #ccc;
+
+  box-shadow: 2px 2px 3px #ccc;
+
+  transition: all 0.3s;
+
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.order-meat .order-meat-con .order-meat-item>ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 2fr);
+  grid-auto-rows: 2fr;
+
+  padding: 3vw;
+
+  gap: 3vw;
+}
+
+.order-meat .order-meat-con .order-meat-item>ul>li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 10px;
+
+  cursor: pointer;
+
+  transition: all 0.3s;
+
+  /* border: 1px solid; */
+}
+
+.order-meat .order-meat-con .order-meat-item>ul>li:hover {
+  transform: scale(1.03);
+
+  box-shadow: 2px 2px 2px #ccc;
+  background-color: rgba(255, 255, 255);
+}
+
+.order-meat .order-meat-con .order-meat-item>ul>li .top {
+  width: 100%;
+  flex: 3;
+}
+
+.order-meat .order-meat-con .order-meat-item>ul>li .top img {
+  width: 100%;
+  display: block;
+}
+
+.order-meat .order-meat-con .order-meat-item>ul>li .bottom {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.order-meat .order-meat-con .order-meat-item>ul>li .bottom span {
+  padding: 3px 0;
+}
+
+.order-meat .order-meat-con .order-meat-item .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.order-meat .order-meat-con .order-meat-item .pagination button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.order-meat .order-meat-con .order-meat-item .pagination button.active {
+  background-color: #71787c;
+  color: white;
+}
+
+@media (max-width: 1030px){
+  .order-meat .order-meat-con{
+    flex: 0 1 95%;
+  }
+  .order-meat .order-meat-con .order-meat-item{
+    width: 90%;
+  }
+  .order-meat .order-meat-con .order-meat-mid .search{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .order-meat {
+    background: url(../../../public/images/meat/main.jpg) no-repeat 85%/cover;
+    background-attachment: fixed;
+  }
+  .order-meat .order-meat-con .order-meat-item>ul {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-auto-rows: 1fr;
+  }
+
+  .order-meat .order-meat-con .order-meat-item>ul>li {
+
+    gap: 0;
+  }
+}

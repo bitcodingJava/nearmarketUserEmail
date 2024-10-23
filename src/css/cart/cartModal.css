@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+.jua-regular {
+  font-family: "Jua", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cart-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.cart-modal-con {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 600px;
+  height: 80%;
+  max-height: 600px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 30px;
+}
+
+/* 닫기 버튼 */
+.cart-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+/* 상품 이미지 */
+.cart-top {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.cart-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover 50%;
+  object-position: center;
+}
+/* 상품 정보 */
+.cart-title-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Jua", serif;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal;
+}
+
+.cart-title-bottom span {
+  font-size: 30px;
+  font-weight: 200;
+  font-family: "jua", serif;
+}
+
+.cart-sum {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  font-family: "Jua", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 수량 조절 */
+.cart-count-wrapper {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.cart-count-wrapper button {
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-count {
+  font-size: 25px;
+}
+
+/* 총합계 */
+.cart-sum-price {
+  font-size: 20px;
+}
+
+.cart-update-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: "Jua", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (max-width: 1300px) {
+  .cart-title-bottom span {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cart-title-bottom span {
+    font-size: 20px;
+  }
+  .cart-close {
+    font-size: 15px;
+  }
+}

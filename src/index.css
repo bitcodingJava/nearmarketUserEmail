@@ -1,0 +1,29 @@
+@import url(/src/css/common/reset.css);
+@import url(/src/css/order/orderIndex.css);
+@import url(css/main/mainIndex.css);
+@import url(css/auth/auth.css);
+@import url(css/admin/adminIndex.css);
+@import url(css/payment/paymentIndex.css);
+@import url(css/start/start.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.loading{
+  width: 100%;
+  height: 70vh;
+  padding-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+@media (max-width: 800px){
+  .loading{
+    height: 50vh;
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,16 @@
+@import url(common/orderHeader.css);
+@import url(common/orderFooter.css);
+@import url(../order/orderFruit.css);
+@import url(../order/ordermeat.css);
+@import url(../order/ordersnack.css);
+@import url(../order/ordervegetable.css);
+@import url(../order/ordervegetabledetail.css);
+@import url(../order/orderFruitDetail.css);
+@import url(../order/orderSnackDetail.css);
+@import url(../order/orderIndexMain.css);
+@import url(../order/orderIndexMainDetail.css);
+@import url(../order/DetailModal.css);
+/*cart*/
+@import url(../cart/cartlist.css);
+
+@import url(../api/api.css);

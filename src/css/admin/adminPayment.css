@@ -1,0 +1,131 @@
+.admin-payment {
+  width: 100%;
+  height: calc(100vh - 50px);
+
+  background-color: #f9f9f9;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-payment .admin-payment-con {
+  width: 90%;
+  height: calc(100vh - 50px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+.admin-payment .admin-payment-con .admin-payment-table{
+  width: 100%;
+  height: calc(100vh - 100px);
+  overflow-y: scroll;
+}
+
+.admin-payment .admin-payment-con h1 {
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  /* margin-bottom: 20px; */
+  text-align: center;
+  color: #333;
+}
+
+.admin-payment .admin-payment-con span {
+  width: 100%;
+  height: 50px;
+}
+
+
+.admin-payment .admin-payment-con table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.admin-payment table th{
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+.admin-payment table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: start;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+.admin-payment .admin-payment-con table th {
+  background-color: #4CAF50;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 15px;
+  transition: all 0.3s;
+}
+
+.admin-payment .admin-payment-con table td {
+  font-size: 15px;
+  color: #555;
+  transition: all 0.3s;
+}
+
+.admin-payment .admin-payment-con tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* .admin-payment table tbody tr:hover {
+  background-color: #ddd;
+} */
+
+.admin-payment .admin-payment-con td div {
+  font-size: 15px;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.admin-payment .admin-payment-con table td {
+  vertical-align: middle;
+}
+
+.admin-payment .admin-payment-con td:last-child {
+  font-weight: bold;
+  color: #333;
+}
+
+@media (max-width: 1030px){
+  .admin-payment .admin-payment-con{
+    align-items: center;
+  }
+  .admin-payment table th,
+  .admin-payment table td {
+    padding: 6px;
+  }
+  .admin-payment .admin-payment-con table td,
+  .admin-payment .admin-payment-con table th{
+    font-size: 10px;
+  }
+
+  .admin-payment .admin-payment-con td div{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 800px){
+  .admin-payment table th,
+  .admin-payment table td {
+    padding: 2px;
+  }
+}

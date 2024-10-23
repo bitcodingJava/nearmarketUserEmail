@@ -1,0 +1,185 @@
+.order-meat-detail{
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+
+  padding-top: 130px;
+}
+
+.order-meat-detail .order-meat-detail-con{
+  flex: 0 1 1600px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-meat-detail .order-meat-detail-con .left{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 3vw;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+}
+
+.order-meat-detail .order-meat-detail-con .left .left-img img{
+  width: 100%;
+  display: block;
+}
+
+.order-meat-detail .order-meat-detail-con .right{
+  flex: 1;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-top{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-top>ul{
+  width: 100%;
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-top>ul .toptop{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-top>ul .toptop span:last-child{
+  padding: 2px;
+  background-color: #e2e2e2;
+  border: 1px solid #9e9e9e;
+  border-radius: 10px;
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-top>ul>li{
+  padding: 10px 0;
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-top>ul>li h3{
+  display: inline;
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-bottom{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-bottom .bottom-price{
+  /* border: 1px solid; */
+  box-sizing: border-box;
+}
+.order-meat-detail .order-meat-detail-con .right .right-bottom .bottom-price>ul{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-bottom .bottom-price>ul>li{
+  padding: 10px 3vw 10px 3vw;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  background-color: #dadada5e;
+  display: flex;
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-bottom .bottom-price>ul>li button{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #969696;
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+  margin: 0;
+  cursor: pointer;
+  
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-bottom .bottom-price>ul>li span{
+  width: 40px;
+  height: 30px;
+  border: 1px solid #969696;
+  box-sizing: border-box;
+  background-color: white;
+  font-size: 14px;
+  text-align: center;
+  line-height: 26px;
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-bottom .bottom-price>ul>li p{
+  width: 85%;
+  text-align: end;
+  font-weight: bold;
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-bottom .bottom-payment{
+  width: 100%;
+
+  /* border: 1px solid; */
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-bottom .bottom-payment>ul{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  gap: 1vw;
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-bottom .bottom-payment>ul>li{
+  display: flex;
+  justify-content: end;
+
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-bottom .bottom-payment>ul>li p{
+  width: 60px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-bottom .bottom-payment>ul>li h1{
+  color: red;
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-bottom .bottom-payment>ul>li button{
+  width: 100%;
+  background-color: white;
+  border: 0.1px solid #ccc;
+  padding: 10px;
+
+  cursor: pointer;
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-bottom .bottom-payment>ul>li button:nth-child(2){
+  background-color: black;
+  color: white;
+}
+
+.order-meat-detail .order-meat-detail-con .right .right-bottom .bottom-payment>ul>li button:nth-child(3){
+  background-color: red;
+  color: white;
+}
+
+@media (max-width: 800px){
+  .order-meat-detail .order-meat-detail-con{
+    flex-direction: column;
+  }
+}

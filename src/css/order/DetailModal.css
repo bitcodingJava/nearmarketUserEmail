@@ -1,0 +1,125 @@
+.modal {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+
+  background-color: rgba(0, 0, 0, 0.096);
+}
+
+.modal .modal-con {
+  width: 430px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 10px;
+  overflow: hidden;
+
+  box-shadow: inset 0 0 5px #cccccc;
+
+  transition: all 0.3s;
+}
+
+.modal .modal-con .modal-top {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px;
+  box-sizing: border-box;
+
+  box-shadow: inset 0 -2px 0 #ccccccbe;
+
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.modal .modal-con .modal-top span {
+  font-weight: bold;
+}
+
+.modal .modal-con .modal-top span:last-child {
+  background-color: rgb(255, 255, 255);
+
+  box-shadow: 0px 1px 2px rgb(160, 160, 160);
+  border-radius: 100%;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+
+  padding: 5px 9px;
+
+  cursor: pointer;
+}
+
+.modal .modal-con .modal-body {
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.modal .modal-con .modal-body p {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.modal .modal-con .modal-body ul {
+  display: flex;
+  gap: 10px;
+  transition: all 0.3s;
+}
+
+.modal .modal-con .modal-body ul li {
+  padding: 20px;
+
+  border-radius: 10px;
+
+  border: 1px solid;
+  box-sizing: border-box;
+
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.modal .modal-con .modal-body ul li:first-child {
+  background-color: red;
+  color: white;
+}
+
+.modal .modal-con .modal-body ul li:last-child {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width:800px){
+  .modal .modal-con {
+    width: 300px;
+  }
+
+  .modal .modal-con .modal-body p {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .modal .modal-con .modal-body ul {
+    gap: 5px;
+  }
+  
+  .modal .modal-con .modal-body ul li {
+    padding: 10px;
+    font-size: 10px;
+  }
+}

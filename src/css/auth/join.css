@@ -1,0 +1,189 @@
+.join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-image: url('/public/images/auth/login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(30px);
+    box-sizing: border-box;
+}
+
+.join .join-con {
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    backdrop-filter: blur(30px);
+    box-sizing: border-box;
+}
+
+.join .join-con h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: white;
+}
+
+.join .join-con ul li {
+    margin-bottom: 15px;
+}
+
+.join .join-con ul li input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    font-size: 16px;
+    box-sizing: border-box;
+
+}
+
+.join .join-con ul li:first-child input {
+    background-image: url(/public/images/auth/member.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    padding-left: 40px;
+
+}
+
+.join .join-con ul li input[type="password"] {
+    background-image: url(/public/images/auth/password.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    padding-left: 40px;
+
+}
+
+.join .join-con ul li:nth-child(3) input {
+    background-image: url(/public/images/auth/age.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    padding-left: 40px;
+
+}
+
+.join .join-con ul li:nth-child(4) input {
+    background-image: url(/public/images/auth/name.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    padding-left: 40px;
+
+}
+
+.join .join-con ul li:nth-child(5) input {
+    background-image: url(/public/images/auth/address.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    padding-left: 40px;
+
+}
+
+.join .join-con ul li:nth-child(6) input {
+    background-image: url(/public/images/auth/phone.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    padding-left: 40px;
+
+}
+
+
+.join .join-con ul li input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #b1b3b6;
+    outline: none;
+}
+
+.join .join-con ul li button {
+    width: 100%;
+    padding: 12px;
+    background-color: #65686b;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.join .join-con ul li button:hover {
+    background-color: #36393b;
+}
+
+.join .join-con ul li button:last-child {
+    background-color: #6c757d;
+}
+
+.join .join-con ul li button:last-child:hover {
+    background-color: #45484b;
+}
+
+
+@media screen and (max-width: 1030px) {
+    .join .join-con {
+        width: 300px;
+
+    }
+
+    .join .join-con h1 {
+        font-size: 24px;
+
+    }
+
+    .join .join-con ul li input[type="text"],
+    input[type="password"],
+    select {
+        font-size: 14px;
+
+    }
+
+    .join .join-con ul li button {
+        padding: 10px;
+        font-size: 14px;
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .join {
+        flex-direction: column;
+        height: 100vh;
+        overflow: hidden;
+
+    }
+
+    .join .join-con {
+        width: 250px;
+        padding: 20px;
+    }
+
+    .join .join-con h1 {
+        font-size: 20px;
+
+    }
+
+    .join .join-con ul li input[type="text"],
+    input[type="password"],
+    select {
+        font-size: 12px;
+
+    }
+
+    .join .join-con ul li button {
+        padding: 8px;
+        font-size: 12px;
+
+    }
+}

@@ -1,0 +1,111 @@
+.admin-right{
+  flex: 1;
+  height: 100vh;
+
+  background-color: white;
+  transition: all 0.3s;
+}
+
+.admin-right .admin-right-con{
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-right .admin-right-con .admin-right-header{
+  width: 100%;
+  height: 50px;
+
+  position: sticky;
+  top: 0;
+  z-index: 99;
+
+  background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+
+  box-shadow: 0 2px 1px #ccc;
+  transition: all 0.3s;
+}
+
+.admin-right .admin-right-con .admin-right-header p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px 2vw;
+}
+
+.admin-right .admin-right-con .admin-right-header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 10px 2vw;
+
+  box-sizing: border-box;
+
+
+}
+
+.admin-right .admin-right-con .admin-right-header ul li{
+  width: 10vmax;
+  height: 4vmin;
+
+  /* border: 1px solid; */
+  border-radius: 3px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: all 0.2s;
+}
+
+.admin-right .admin-right-con .admin-right-header ul li:first-child{
+  font-weight: bold;
+
+  background-color: red;
+  color: white;
+}
+
+.admin-right .admin-right-con .admin-right-header ul li:last-child{
+  background-color: #ccc;
+  color: white;
+}
+
+.admin-right .admin-right-con .admin-right-header ul li:hover{
+  background-color: black;
+}
+
+.admin-right .admin-right-con .admin-right-header ul li a{
+  background-color: inherit;
+  color: inherit;
+}
+
+@media (max-width: 1030px){
+  .admin-right{
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+
+  .admin-right .admin-right-con .admin-right-header{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 800px) {
+  .admin-right .admin-right-con .admin-right-header ul li{
+    width: 12vmax;
+    height: 4vmax;
+  }
+}

@@ -1,0 +1,214 @@
+.payment {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 150px;
+}
+
+.payment-con {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.payment .payment-con h1 {
+  font-size: 24px;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.payment .payment-con .address h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.payment .payment-item button {
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  background-color: rgb(177, 172, 172);
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 15px;
+
+}
+
+.payment .payment-con .address table,
+.payment-select table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.address th, .address td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.address th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.payment-select select {
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.payment-item {
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.payment-item .payment-item-con {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.payment-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  width: 240px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.payment-list img {
+  width: 200px;
+  /* 모든 이미지의 너비 고정 */
+  height: 200px;
+  /* 모든 이미지의 높이 고정 */
+  object-fit: cover;
+  /* 이미지 비율을 유지하며, 컨테이너에 맞춰 자르기 */
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.payment-list .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.payment-list .bottom span {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.payment-select {
+  margin-bottom: 20px;
+}
+
+.payment-select .payment-slt {
+  width: 100%;
+}
+
+.payment-select .payment-slt .payment-slt-con{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.payment-select .payment-slt .payment-slt-con ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.payment-select .payment-slt .payment-slt-con ul li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+}
+
+.payment-select .payment-slt .payment-slt-con ul li select{
+  width: 15vw;
+}
+
+.payment-sub {
+  text-align: center;
+}
+
+.payment-sub .sum-price {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.payment-result button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.payment-result button:hover {
+  background-color: #45a049;
+}
+
+.payment-null h1 {
+  color: red;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* 주문처 선택 추가 css */
+.payment-shop {
+  display: flex;
+  gap: 0.5vw;
+}
+
+.payment-shop-list {
+  width: auto;
+}
+
+.payment-shop button {
+  height: 40px;
+  font-size: 12px;
+  white-space: nowrap;
+  /* 줄바꿈 X */
+  cursor: pointer;
+  padding: 0 5px;
+  margin-top: 5px;
+}
+
+
+@media (max-width: 800px) {
+
+  .address table th:nth-child(2),
+  .address table td:nth-child(2) {
+    display: none;
+  }
+  .payment-select .payment-slt .payment-slt-con ul{
+    flex-direction: column;
+  }
+  .payment-select .payment-slt .payment-slt-con ul li{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .payment-select .payment-slt .payment-slt-con ul li select{
+    width: 50vw;
+    height: 40px;
+  }
+  .payment-select .payment-slt .payment-slt-con ul li:nth-child(2) select{
+    width: calc(50vw - 0.5vw - 62px);
+  }
+}

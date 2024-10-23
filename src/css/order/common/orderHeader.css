@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+/* .jua-regular {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+.nm {
+  font-family: "Jua", sans-serif;
+  color: red;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.jum {
+  font-family: "Jua", sans-serif;
+  color: red;
+  font-size: 30px;
+  font-weight: 1000;
+  display: inline-block;
+  transform: translateY(-20%);
+}
+
+.k {
+  font-family: "Jua", sans-serif;
+  color: blue;
+  font-size: 30px;
+}
+.order-header{
+  width: 100%;
+  height: auto;
+  box-shadow: inset 0 -2px 0 #ccc;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.order-header .order-header-nav {
+  flex: 0 1 1600px;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-header-nav .button{
+  position: absolute;
+  top: -30px;
+  right: 0;
+  color: white;
+}
+
+.order-header-nav h1.logo{
+  height: 100%;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  padding: 10px;
+
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.order-header .order-header-nav .gnb{
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  display: block;
+
+  transition: opacity 0.3s, transform 0.3s ; /* 부드러운 전환 */
+  transform: translateX(120%);
+  transition: all 0.3s;
+}
+
+.order-header .order-header-nav .gnb.visible {
+  opacity: 1; /* 보이게 할 때의 상태 */
+  transform: translateX(0); /* 원래 위치로 */
+  visibility: visible; /* 보이기 */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.order-header .order-header-nav .gnb ul {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5vw;
+  transition: all 0.3s;
+}
+
+.order-header .order-header-nav .gnb ul li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+.order-header .order-header-nav .gnb ul li:hover {
+  color: #ff6b00;
+}
+
+.order-header .order-header-nav .gnb ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: inherit;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+.order-header .order-header-nav .gnb ul li img {
+  width: 30%;
+  margin-right: 10px;
+  display: block;
+}
+@media (max-width: 1400px){
+  .order-header .order-header-nav .gnb ul {
+    width: 80%;
+  }
+  .order-header .order-header-nav .gnb ul {
+    gap: 1px;
+  }
+  .order-header .order-header-nav .gnb ul li a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1030px){
+  .order-header-nav .button{
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    border: 1px solid #b4b4b4;
+    position: absolute;
+    right: 45px;
+    top: 45px;
+    cursor: pointer;
+    z-index: 999;
+    transition: all 0.3s;
+  }
+  .order-header-nav .button:hover{
+    background-color: black;
+    color: white;
+  }
+  .order-header .order-header-nav{
+    position: relative;
+  }
+  .order-header .order-header-nav .gnb{
+    background-color: rgba(190, 190, 190);
+    color: white;
+    border: 0;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    z-index: 99;
+    display: flex;
+  }
+  .order-header .order-header-nav .gnb.visible {
+    display: flex;
+  }
+  .order-header .order-header-nav .gnb ul{
+    width: 100%;
+    flex-direction: column;
+    gap: 2vw;
+  }
+  .order-header .order-header-nav .gnb ul li{
+    width: 60%;
+  }
+  .order-header .order-header-nav .gnb ul li a{
+    font-size: 2vmin;
+    padding: 1vmin;
+  }
+  .order-header .order-header-nav .gnb ul li img {
+    width: 3vmin;
+  }
+  
+}
+
+@media (max-width: 800px){
+  .order-header-nav .button{
+    z-index: 999;
+  }
+
+  .order-header .order-header-nav .gnb{
+    height: 100vh;
+    padding: 0;
+  }
+
+  .order-header .order-header-nav .gnb.visible{
+    background-color: rgba(255, 255, 255, 0.582);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+  }
+
+  .order-header .order-header-nav .gnb ul{
+    width: 40%;
+    background-color: #b6b6b6;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .order-header .order-header-nav .gnb ul li{
+    width: 15vmax;
+  }
+
+  .order-header .order-header-nav .gnb ul li a{
+    font-size: 2vmax;
+    padding: 1vmax;
+  }
+
+  .order-header .order-header-nav .gnb ul li img {
+    width: 4vmax;
+  }
+}
+
+@media (max-width: 500px){
+  .order-header-nav .button{
+    right: 20px;
+  }
+}

@@ -1,0 +1,135 @@
+.fruit-detail {
+    width: 80%;
+    height: 80vh;
+    margin: 10px auto;
+    padding: 160px 20px 40px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fruit-detail-con {
+    width: 100%;
+    display: flex;
+    flex-direction: row; /* 수평 배치로 변경 */
+    align-items: center; /* 세로 중앙 정렬 */
+    gap: 2vw;
+    
+}
+
+.fruit-detail-con ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.fruit-detail-con li {
+    margin: 15px 0;
+    
+}
+
+.fruit-detail .fruit-detail-con .fruit-detail-left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.fruit-detail .fruit-detail-con .fruit-detail-left .fruit-detail-left-img{
+    display: flex;
+    justify-content: center;
+}
+
+.fruit-detail-con .fruit-detail-left .fruit-detail-left-img img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-right: 20px; /* 이미지와 체크박스 사이의 간격 추가 */
+}
+
+.fruit-detail .fruit-detail-con .fruit-detail-right{
+    flex: 1;
+}
+.fruit-detail-con li button {
+    padding: 10px;
+    border: 2px solid skyblue; 
+    border-radius: 50%; 
+    background-color: white; 
+    color: skyblue; 
+    font-size: 1.2em; 
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fruit-detail-con li button:hover {
+    background-color: skyblue; /* hover 시 배경색 변경 */
+    color: white; /* hover 시 글씨색 변경 */
+  }
+  .pmbtn{
+    display: flex;
+  }
+  
+  .fruit-detail-con li span {
+    margin: 0 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+.order-go {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.order-go button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-go button:hover {
+    background-color: white; 
+    border: 1px solid;
+    color: skyblue;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+.popup-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  @media (max-width: 800px){
+    .fruit-detail{
+        height: auto;
+    }
+    .fruit-detail-con{
+        flex-direction: column;
+    }
+  }

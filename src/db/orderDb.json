@@ -1,0 +1,942 @@
+{
+  "fruitItems": [
+    {
+      "title": "딸기",
+      "price": 9900,
+      "img": "f0.jpg",
+      "description": "특유의 단맛과 상큼한 딸기",
+      "id": "1",
+      "viewcount": 22
+    },
+    {
+      "id": "2",
+      "title": "사과",
+      "price": 4900,
+      "img": "f1.jpg",
+      "description": "새콤달콤 아삭아삭 사과",
+      "viewcount": 43
+    },
+    {
+      "id": "3",
+      "title": "체리",
+      "price": 10900,
+      "img": "f2.jpg",
+      "description": "새콤달콤 청량한 체리",
+      "viewcount": 9
+    },
+    {
+      "title": "바나나",
+      "price": 5900,
+      "img": "f3.jpg",
+      "description": "부드럽고 달콤한 바나나",
+      "viewcount": 10,
+      "id": "e988"
+    },
+    {
+      "id": "5",
+      "title": "포도",
+      "price": 6900,
+      "img": "f4.jpg",
+      "description": "약간의 신맛과 달콤한 포도",
+      "viewcount": 24
+    },
+    {
+      "id": "6",
+      "title": "메론",
+      "price": 13900,
+      "img": "f5.jpg",
+      "description": "부드럽고 달콤한 메론",
+      "viewcount": 12
+    },
+    {
+      "title": "오렌지",
+      "price": 8900,
+      "img": "f6.jpg",
+      "description": "상큼하면서 달콤한 오렌지",
+      "id": "7",
+      "viewcount": 3
+    },
+    {
+      "title": "파인애플",
+      "price": 7900,
+      "img": "f7.jpg",
+      "description": "강한 신맛과 상큼한 파인애플",
+      "id": "8",
+      "viewcount": 1
+    },
+    {
+      "id": "e131",
+      "title": "123213",
+      "price": 123,
+      "description": "123",
+      "img": "f5.jpg",
+      "order-corner": "fruit",
+      "viewcount": 2
+    }
+  ],
+  "vegetableItems": [
+    {
+      "title": "당근",
+      "price": 2000,
+      "img": "carrot.jpg",
+      "description": "달콤하고 아삭아삭한 고향당근입니다",
+      "rocket": "rocket.png",
+      "slideImage": [
+        "carrot.jpg",
+        "carrot2.jpg",
+        "carrot3.jpg",
+        "carrot4.jpg",
+        "carrot5.jpg"
+      ],
+      "viewcount": 101,
+      "id": "5722"
+    },
+    {
+      "id": "2",
+      "title": "옥수수",
+      "price": 5000,
+      "description": "자연을 담은 건강한 찰옥수수",
+      "img": "corn.jpg",
+      "rocket": "rocket.png",
+      "slideImage": [
+        "corn.jpg",
+        "corn2.jpg",
+        "corn3.jpg",
+        "corn4.jpg",
+        "corn5.jpg"
+      ],
+      "viewcount": 62
+    },
+    {
+      "id": "3",
+      "title": "양파",
+      "price": 1000,
+      "description": "경남 밀양에서 자란 달큰한 양파",
+      "img": "onion.jpg",
+      "rocket": "rocket.png",
+      "slideImage": [
+        "onion.jpg",
+        "onion2.jpg",
+        "onion3.jpg",
+        "onion4.jpg",
+        "onion5.jpg"
+      ],
+      "viewcount": 16
+    },
+    {
+      "id": "4",
+      "title": "파프리카",
+      "price": 4000,
+      "description": "청정 자연을 그대로 담은 파프리카",
+      "img": "paprica.jpg",
+      "rocket": "rocket.png",
+      "slideImage": [
+        "paprica.jpg",
+        "paprica2.jpg",
+        "paprica3.jpg",
+        "paprica4.jpg"
+      ],
+      "viewcount": 44
+    },
+    {
+      "id": "5",
+      "title": "호박",
+      "price": 10000,
+      "description": "매일 매일 밤호박 드세요~",
+      "img": "pumkin.jpg",
+      "rocket": "rocket.png",
+      "slideImage": [
+        "pumkin.jpg",
+        "pumkin2.jpg",
+        "pumkin3.jpg"
+      ],
+      "viewcount": 21
+    },
+    {
+      "id": "6",
+      "title": "토마토",
+      "price": 6000,
+      "description": "신선한 대추방울 토마토",
+      "img": "tomato.jpg",
+      "rocket": "rocket.png",
+      "slideImage": [
+        "tomato.jpg",
+        "tomato2.jpg",
+        "tomato3.jpg"
+      ],
+      "viewcount": 25
+    },
+    {
+      "id": "f15e",
+      "title": "산삼",
+      "price": 60000,
+      "description": "산삼",
+      "img": "ginseng.jpg",
+      "order-corner": "vegetable",
+      "viewcount": 3
+    }
+  ],
+  "snackItems": [
+    {
+      "title": "오감자 오리지널",
+      "price": 1000,
+      "img": "s0.jpg",
+      "description": "오감자입니다 소스가 들어있어서 좋습니다",
+      "viewcount": 27,
+      "id": "34c4"
+    },
+    {
+      "id": "2",
+      "title": "먹태깡 청양마요맛",
+      "price": 1000,
+      "img": "s1.jpeg",
+      "description": "먹태깡 청양마요 맛 느끼하지않아서 계속 먹을수있습니다.",
+      "viewcount": 96
+    },
+    {
+      "title": "초코송이",
+      "price": 900,
+      "img": "s2.jpg",
+      "description": "초코송이 먹기 좋게 딱 나왔습니다.",
+      "id": "3",
+      "viewcount": 10
+    },
+    {
+      "title": "홈런볼 초코맛",
+      "price": 2000,
+      "img": "s3.jpg",
+      "description": "홈런볼 먹기좋은 중독성있는 과자 금방사라져여",
+      "id": "4",
+      "viewcount": 2
+    },
+    {
+      "id": "5",
+      "title": "자갈치 문어맛",
+      "price": 1000,
+      "img": "s4.webp",
+      "description": "자갈치 문어맛 문어 비싸서 못먹는데 과자로 대처가능",
+      "viewcount": 40
+    },
+    {
+      "id": "6",
+      "title": "옥수수깡",
+      "price": 1000,
+      "img": "s5.jpg",
+      "description": "콘칩 보다 얇아서 좋아여",
+      "viewcount": 47
+    },
+    {
+      "id": "7",
+      "title": "포스틱",
+      "price": 1000,
+      "img": "s6.jpg",
+      "description": "맘스터치 감자튀기보다 맛있음",
+      "viewcount": 15
+    }
+  ],
+  "meatItems": [
+    {
+      "title": "국내산 삼겹살 구이용",
+      "price": 12400,
+      "img": "meat1.jpg",
+      "description": "언제 먹어도 맛있는 육즙 가득 삼겹살",
+      "id": "1",
+      "viewcount": 44
+    },
+    {
+      "title": "국내산 목살[냉장보관]",
+      "price": 30000,
+      "img": "meat2.jpg",
+      "description": "주물럭과 구이에는 역시 목살!",
+      "id": "2",
+      "viewcount": 6
+    },
+    {
+      "id": "3",
+      "title": "국내산 대패 삼겹살",
+      "price": 13420,
+      "img": "meat3.jpg",
+      "description": "빠르게 구워먹는 대패삼겹살",
+      "viewcount": 12
+    },
+    {
+      "id": "4",
+      "title": "한우 등심 구이용 1+등급 (100g)",
+      "price": 13080,
+      "img": "meat4.jpg",
+      "description": "고소한 풍미의 부드러운 한우 등심",
+      "viewcount": 10
+    },
+    {
+      "id": "5",
+      "title": "한우 국거리 1++등급 (300g)",
+      "price": 19500,
+      "img": "meat5.jpg",
+      "description": "깊은 감칠맛의 엄선된 1++ 한우",
+      "viewcount": 14
+    },
+    {
+      "title": "국내산 삼겹살 수육용",
+      "price": 12300,
+      "img": "meat6.jpg",
+      "description": "수육용으로 부드럽고 맛있습니다.",
+      "id": "6",
+      "viewcount": 2
+    },
+    {
+      "title": "국내산 돼지갈비",
+      "price": 13000,
+      "img": "meat7.jpg",
+      "description": "국내산 돼지갈비 부드럽고 맛있습니다.",
+      "id": "7",
+      "viewcount": 3
+    }
+  ],
+  "indexItems": [
+    {
+      "title": "공기 청정기",
+      "price": 70000,
+      "img": "airCleaner.jpg",
+      "description": "언제 어디서나 맑고 상쾌하게",
+      "id": "1"
+    },
+    {
+      "title": "휴지",
+      "price": 1000,
+      "img": "toiletPaper.jpg",
+      "description": "부드러운 휴지",
+      "id": "2"
+    },
+    {
+      "title": "칫솔",
+      "price": 2000,
+      "img": "toothBrushes.jpg",
+      "description": "미세모 칫솔 ",
+      "id": "3"
+    },
+    {
+      "title": "멀티탭",
+      "price": 5000,
+      "img": "multitab.jpg",
+      "description": "편하고 안전하게 사용하세요",
+      "id": "4"
+    }
+  ],
+  "members": [
+    {
+      "userEmail": "a3@email.com",
+      "userPw": "1111",
+      "age": "12",
+      "userName": "수지",
+      "address": "서울시 노원구",
+      "phoneNumber": "010123456789",
+      "role": "ROLE_MEMBER",
+      "id": "3"
+    },
+    {
+      "userEmail": "a2@email.com",
+      "userPw": "1111",
+      "age": "111111",
+      "userName": "a21",
+      "address": "노원구",
+      "phoneNumber": "01012345678",
+      "role": "ROLE_ADMIN",
+      "id": "792c"
+    },
+    {
+      "id": "97f3",
+      "userEmail": "admin1234@naver.com",
+      "userPw": "1234",
+      "age": "21",
+      "userName": "권오철",
+      "address": "green",
+      "phoneNumber": "1234",
+      "role": "ROLE_ADMIN"
+    }
+  ],
+  "payment": [
+    {
+      "id": "d85b",
+      "paymentMethod": "신용카드",
+      "shopVal": "노원점",
+      "orderMethod": "직접방문",
+      "addressMessage": "그냥 문 앞에 놓아 주시면 돼요.",
+      "memberEmail": "a2@email.com",
+      "orderAddress": "노원구",
+      "paymentResult": [
+        {
+          "id": "3",
+          "title": "양파",
+          "price": 1000,
+          "img": "/images/vegetable/onion.jpg",
+          "count": 1
+        },
+        {
+          "id": "2",
+          "title": "국내산 목살[냉장보관]",
+          "price": 13000,
+          "img": "/images/meat/meat2.jpg",
+          "count": 1,
+          "category": "meatItems"
+        }
+      ],
+      "paymentAmount": 14000,
+      "time": "2024/10/08 14:07:43"
+    },
+    {
+      "id": "7763",
+      "paymentMethod": "",
+      "shopVal": "",
+      "orderMethod": "",
+      "addressMessage": "",
+      "memberEmail": "a2@email.com",
+      "orderAddress": "노원구",
+      "paymentResult": [
+        {
+          "id": "5",
+          "title": "호박",
+          "price": 10000,
+          "img": "/images/vegetable/pumkin.jpg",
+          "count": 2,
+          "category": "vegetableItems"
+        },
+        {
+          "id": "3",
+          "title": "칫솔",
+          "price": 2000,
+          "img": "/images/index/toothBrushes.jpg",
+          "count": 1,
+          "category": "indexItems"
+        },
+        {
+          "id": "4",
+          "img": "/images/fruit/f3.jpg",
+          "title": "바나나",
+          "price": 5900,
+          "count": 1,
+          "category": "fruitItems"
+        }
+      ],
+      "paymentAmount": 27900,
+      "time": "2024/10/08 16:05:28"
+    },
+    {
+      "id": "cdee",
+      "paymentMethod": "카카오페이",
+      "shopVal": "오아시스 마트",
+      "orderMethod": "직접방문",
+      "addressMessage": "직접 받을게요.부재시 문앞",
+      "memberEmail": "yyk6591@email.com",
+      "orderAddress": "11",
+      "paymentResult": [
+        {
+          "id": "1",
+          "title": "당근",
+          "price": 2000,
+          "img": "/images/vegetable/carrot.jpg",
+          "count": 5,
+          "category": "vegetable",
+          "userEmail": "yyk6591@email.com",
+          "createdAt": "2024-10-14T06:00:29.313Z"
+        }
+      ],
+      "paymentAmount": 10000,
+      "time": "2024/10/14 15:00:36"
+    },
+    {
+      "id": "8c5b",
+      "paymentMethod": "신용카드",
+      "shopVal": "세계로 마트",
+      "orderMethod": "직접방문",
+      "addressMessage": "그냥 문 앞에 놓아 주시면 돼요.",
+      "memberEmail": "a2@email.com",
+      "orderAddress": "노원구",
+      "paymentResult": [
+        {
+          "id": "6",
+          "title": "메론",
+          "price": 13900,
+          "img": "/images/fruit/f5.jpg",
+          "count": 1,
+          "userEmail": "a2@email.com",
+          "createdAt": "2024-10-14T06:26:40.162Z"
+        }
+      ],
+      "paymentAmount": 13900,
+      "time": "2024/10/14 15:33:12"
+    },
+    {
+      "id": "64ef",
+      "paymentMethod": "신용카드",
+      "shopVal": "2",
+      "orderMethod": "직접방문",
+      "addressMessage": "직접 받을게요. 부재시 문 앞",
+      "memberEmail": "a2@email.com",
+      "orderAddress": "노원구",
+      "paymentResult": [
+        {
+          "id": "4",
+          "title": "바나나",
+          "price": 5900,
+          "img": "/images/fruit/f3.jpg",
+          "count": 1,
+          "userEmail": "a2@email.com",
+          "createdAt": "2024-10-14T06:51:51.583Z"
+        }
+      ],
+      "paymentAmount": 5900,
+      "time": "2024/10/14 15:52:13"
+    },
+    {
+      "id": "09ca",
+      "paymentMethod": "신용카드",
+      "shopVal": "오아시스 마트 노원점",
+      "orderMethod": "직접방문",
+      "addressMessage": "그냥 문 앞에 놓아 주시면 돼요.",
+      "memberEmail": "a2@email.com",
+      "orderAddress": "노원구",
+      "paymentResult": [
+        {
+          "id": "5",
+          "title": "포도",
+          "price": 11900,
+          "img": "/images/fruit/f4.jpg",
+          "count": 2,
+          "userEmail": "a2@email.com",
+          "createdAt": "2024-10-14T07:28:18.273Z"
+        }
+      ],
+      "paymentAmount": 23800,
+      "time": "2024/10/14 16:28:25"
+    },
+    {
+      "id": "57c5",
+      "paymentMethod": "신용카드",
+      "shopVal": "123123123",
+      "orderMethod": "직접방문",
+      "addressMessage": "직접 받을게요.부재시 문앞",
+      "memberEmail": "a2@email.com",
+      "orderAddress": "노원구",
+      "paymentResult": [
+        {
+          "id": "5",
+          "title": "포도",
+          "price": 6900,
+          "img": "/images/fruit/f4.jpg",
+          "count": 1,
+          "userEmail": "a2@email.com",
+          "createdAt": "2024-10-14T07:30:17.020Z"
+        }
+      ],
+      "paymentAmount": 6900,
+      "time": "2024/10/14 16:30:21"
+    },
+    {
+      "id": "07d1",
+      "paymentMethod": "신용카드",
+      "shopVal": "세계로 마트 상계점",
+      "orderMethod": "배달",
+      "addressMessage": "벨을 누르지 말아주세요.",
+      "memberEmail": "a2@email.com",
+      "orderAddress": "노원구",
+      "paymentResult": [
+        {
+          "id": "4",
+          "title": "바나나",
+          "price": 8900,
+          "img": "/images/fruit/f3.jpg",
+          "count": 1,
+          "userEmail": "a2@email.com",
+          "createdAt": "2024-10-14T07:33:26.603Z"
+        },
+        {
+          "id": "6",
+          "title": "메론",
+          "price": 13900,
+          "img": "/images/fruit/f5.jpg",
+          "count": 1,
+          "userEmail": "a2@email.com",
+          "createdAt": "2024-10-14T07:33:15.828Z"
+        }
+      ],
+      "paymentAmount": 22800,
+      "time": "2024/10/14 16:34:02"
+    },
+    {
+      "id": "a494",
+      "paymentMethod": "",
+      "shopVal": "",
+      "orderMethod": "",
+      "addressMessage": "",
+      "memberEmail": "a2@email.com",
+      "orderAddress": "노원구",
+      "paymentResult": [
+        {
+          "id": "3",
+          "title": "체리",
+          "price": 10900,
+          "img": "/images/fruit/f2.jpg",
+          "count": 1,
+          "userEmail": "a2@email.com",
+          "createdAt": "2024-10-14T07:35:57.700Z"
+        }
+      ],
+      "paymentAmount": 10900,
+      "time": "2024/10/14 16:35:57"
+    },
+    {
+      "id": "4da2",
+      "paymentMethod": "신용카드",
+      "shopVal": "오아시스 마트 노원점",
+      "orderMethod": "직접방문",
+      "addressMessage": "그냥 문 앞에 놓아 주시면 돼요.",
+      "memberEmail": "a2@email.com",
+      "orderAddress": "노원구",
+      "paymentResult": [
+        {
+          "id": "2",
+          "title": "사과",
+          "price": 4900,
+          "img": "/images/fruit/f1.jpg",
+          "count": 1,
+          "userEmail": "a2@email.com",
+          "createdAt": "2024-10-14T08:29:08.485Z"
+        }
+      ],
+      "paymentAmount": 4900,
+      "time": "2024/10/14 17:29:13"
+    },
+    {
+      "id": "6813",
+      "paymentMethod": "",
+      "shopVal": "",
+      "orderMethod": "",
+      "addressMessage": "",
+      "memberEmail": "a2@email.com",
+      "orderAddress": "노원구",
+      "paymentResult": [
+        {
+          "id": "2",
+          "title": "옥수수",
+          "price": 5000,
+          "img": "/images/vegetable/corn.jpg",
+          "count": 1,
+          "category": "vegetable",
+          "userEmail": "guest",
+          "createdAt": "2024-10-15T00:42:08.128Z"
+        },
+        {
+          "id": "3",
+          "img": "/images/fruit/f2.jpg",
+          "title": "체리",
+          "price": 10900,
+          "count": 1,
+          "category": "fruit",
+          "userEmail": "a2@email.com",
+          "createdAt": "2024-10-15T01:04:19.022Z"
+        },
+        {
+          "id": "3",
+          "title": "체리",
+          "price": 10900,
+          "img": "/images/fruit/f2.jpg",
+          "count": 1,
+          "userEmail": "a2@email.com",
+          "createdAt": "2024-10-15T01:04:20.718Z"
+        }
+      ],
+      "paymentAmount": 26800,
+      "time": "2024/10/15 10:04:20"
+    },
+    {
+      "id": "dc98",
+      "paymentMethod": "신용카드",
+      "shopVal": "롯데슈퍼 상계11 마트 수락산점",
+      "orderMethod": "직접방문",
+      "addressMessage": "직접 받을게요.부재시 문앞",
+      "memberEmail": "a2@email.com",
+      "orderAddress": "노원구",
+      "paymentResult": [
+        {
+          "title": "당근",
+          "price": 2000,
+          "img": "/images/vegetable/carrot.jpg",
+          "count": 1,
+          "userEmail": "a2@email.com",
+          "category": "vegetable"
+        }
+      ],
+      "paymentAmount": 2000,
+      "time": "2024/10/18 11:11:03"
+    },
+    {
+      "id": "4a09",
+      "paymentMethod": "신용카드",
+      "shopVal": "세계로 마트 상계점",
+      "orderMethod": "배달",
+      "addressMessage": "직접 받을게요.부재시 문앞",
+      "memberEmail": "a2@email.com",
+      "orderAddress": "노원구",
+      "paymentResult": [
+        {
+          "id": "3",
+          "title": "양파",
+          "price": 1000,
+          "img": "/images/vegetable/onion.jpg",
+          "count": 1,
+          "category": "vegetable",
+          "userEmail": "a2@email.com"
+        }
+      ],
+      "paymentAmount": 1000,
+      "time": "2024/10/22 16:00:36"
+    },
+    {
+      "id": "ea6e",
+      "paymentMethod": "신용카드",
+      "shopVal": "세계로 마트 상계점",
+      "orderMethod": "직접방문",
+      "addressMessage": "그냥 문 앞에 놓아 주시면 돼요.",
+      "memberEmail": "admin1234@naver.com",
+      "orderAddress": "green",
+      "paymentResult": [
+        {
+          "id": "4",
+          "title": "파프리카",
+          "price": 4000,
+          "img": "/images/vegetable/paprica.jpg",
+          "count": 1,
+          "category": "vegetable",
+          "userEmail": "admin1234@naver.com"
+        },
+        {
+          "id": "5",
+          "title": "호박",
+          "price": 10000,
+          "img": "/images/vegetable/pumkin.jpg",
+          "count": 1,
+          "category": "vegetable",
+          "userEmail": "admin1234@naver.com"
+        },
+        {
+          "id": "2",
+          "img": "/images/fruit/f1.jpg",
+          "title": "사과",
+          "price": 4900,
+          "count": 1,
+          "category": "fruit",
+          "userEmail": "admin1234@naver.com"
+        },
+        {
+          "id": "5",
+          "title": "자갈치 문어맛",
+          "price": 1000,
+          "img": "/images/ordersnack/s4.webp",
+          "count": 3,
+          "category": "snack",
+          "userEmail": "admin1234@naver.com"
+        }
+      ],
+      "paymentAmount": 21900,
+      "time": "2024/10/22 16:30:26"
+    },
+    {
+      "id": "2236",
+      "paymentMethod": "신용카드",
+      "shopVal": "세계로 마트 상계점",
+      "orderMethod": "직접방문",
+      "addressMessage": "그냥 문 앞에 놓아 주시면 돼요.",
+      "memberEmail": "admin1234@naver.com",
+      "orderAddress": "green",
+      "paymentResult": [
+        {
+          "id": "6",
+          "title": "토마토",
+          "price": 6000,
+          "img": "/images/vegetable/tomato.jpg",
+          "count": 1,
+          "category": "vegetable",
+          "userEmail": "admin1234@naver.com"
+        },
+        {
+          "id": "1",
+          "title": "국내산 삼겹살 구이용",
+          "price": 12400,
+          "img": "/images/meat/meat1.jpg",
+          "count": 1,
+          "category": "meat",
+          "userEmail": "admin1234@naver.com"
+        }
+      ],
+      "paymentAmount": 18400,
+      "time": "2024/10/22 16:37:41"
+    },
+    {
+      "id": "f3b1",
+      "paymentMethod": "신용카드",
+      "shopVal": "오아시스 마트 노원점",
+      "orderMethod": "직접방문",
+      "addressMessage": "그냥 문 앞에 놓아 주시면 돼요.",
+      "memberEmail": "admin1234@naver.com",
+      "orderAddress": "green",
+      "paymentResult": [
+        {
+          "id": "2",
+          "title": "먹태깡 청양마요맛",
+          "price": 1000,
+          "img": "/images/ordersnack/s1.jpeg",
+          "count": 2,
+          "category": "snack",
+          "userEmail": "admin1234@naver.com"
+        }
+      ],
+      "paymentAmount": 2000,
+      "time": "2024/10/22 16:47:30"
+    },
+    {
+      "id": "30af",
+      "paymentMethod": "신용카드",
+      "shopVal": "세계로 마트 상계점",
+      "orderMethod": "배달",
+      "addressMessage": "그냥 문 앞에 놓아 주시면 돼요.",
+      "memberEmail": "a2@email.com",
+      "orderAddress": "노원구",
+      "paymentResult": [
+        {
+          "id": "3",
+          "title": "양파",
+          "price": 1000,
+          "img": "/images/vegetable/onion.jpg",
+          "count": 1,
+          "userEmail": "a2@email.com",
+          "category": "vegetable"
+        },
+        {
+          "id": "5722",
+          "title": "당근",
+          "price": 2000,
+          "img": "/images/vegetable/carrot.jpg",
+          "count": 1,
+          "userEmail": "a2@email.com",
+          "category": "vegetable"
+        },
+        {
+          "id": "2",
+          "title": "옥수수",
+          "price": 5000,
+          "img": "/images/vegetable/corn.jpg",
+          "count": 1,
+          "userEmail": "a2@email.com",
+          "category": "vegetable"
+        }
+      ],
+      "paymentAmount": 8000,
+      "time": "2024/10/22 16:56:12"
+    },
+    {
+      "id": "3dc3",
+      "paymentMethod": "신용카드",
+      "shopVal": "세계로 마트 상계점",
+      "orderMethod": "직접방문",
+      "addressMessage": "그냥 문 앞에 놓아 주시면 돼요.",
+      "memberEmail": "a2@email.com",
+      "orderAddress": "노원구",
+      "paymentResult": [
+        {
+          "id": "6",
+          "title": "옥수수깡",
+          "price": 1000,
+          "img": "/images/ordersnack/s5.jpg",
+          "count": 1,
+          "category": "snack",
+          "userEmail": "a2@email.com"
+        }
+      ],
+      "paymentAmount": 1000,
+      "time": "2024/10/22 16:59:01"
+    },
+    {
+      "id": "38e5",
+      "paymentMethod": "신용카드",
+      "shopVal": "오아시스 마트 노원점",
+      "orderMethod": "직접방문",
+      "addressMessage": "그냥 문 앞에 놓아 주시면 돼요.",
+      "memberEmail": "a2@email.com",
+      "orderAddress": "노원구",
+      "paymentResult": [
+        {
+          "id": "4",
+          "title": "파프리카",
+          "price": 4000,
+          "img": "/images/vegetable/paprica.jpg",
+          "count": 1,
+          "category": "vegetable",
+          "userEmail": "a2@email.com"
+        },
+        {
+          "id": "34c4",
+          "title": "오감자 오리지널",
+          "price": 1000,
+          "img": "/images/ordersnack/s0.jpg",
+          "count": 3,
+          "category": "snack",
+          "userEmail": "a2@email.com"
+        },
+        {
+          "id": "3",
+          "title": "국내산 대패 삼겹살",
+          "price": 13420,
+          "img": "/images/meat/meat3.jpg",
+          "count": 1,
+          "category": "meat",
+          "userEmail": "a2@email.com"
+        }
+      ],
+      "paymentAmount": 20420,
+      "time": "2024/10/23 15:08:20"
+    }
+  ],
+  "api": [
+    {
+      "title": "오아시스 마트 노원점",
+      "address": "노원구 동일로 1396",
+      "postNum": "01751",
+      "phoneNum": "02-123-5678",
+      "img": "oasisMart.jpg",
+      "lat": 37.65323,
+      "lng": 127.061308,
+      "id": "1"
+    },
+    {
+      "title": "세계로 마트 상계점",
+      "address": "노원구 한글비석로 383",
+      "postNum": "01699",
+      "phoneNum": "02-000-1234",
+      "img": "worldMart.jpg",
+      "lat": 37.659223,
+      "lng": 127.073014,
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "title": "하나로 마트 마들점",
+      "address": "노원구 동일로 1538",
+      "postNum": "01674",
+      "phoneNum": "02-987-6543",
+      "img": "oneMart.jpg",
+      "lat": 37.665806,
+      "lng": 127.057909
+    },
+    {
+      "title": "롯데슈퍼 상계11 마트 수락산점",
+      "address": "노원구 동일로 1541",
+      "postNum": "01756",
+      "phoneNum": "02-456-4567",
+      "img": "lotteMart.jpg",
+      "lat": 37.677278,
+      "lng": 127.052683,
+      "id": "4"
+    }
+  ],
+  "cart": []
+}

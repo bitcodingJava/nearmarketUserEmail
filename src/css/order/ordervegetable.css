@@ -1,0 +1,203 @@
+.order-vtb {
+  width: 100%;
+  height: 150vh;
+  background: url(../../../public/images/vegetable/main.jpg) no-repeat 50%/cover;
+  background-attachment: fixed;
+  background-position-y: top;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+
+.order-vegetable {
+  max-width: 1600px;
+  margin: 150px auto 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.order-vegetable .order-vegetable-header {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.order-vegetable .order-vegetable-header .title {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.order-vegetable .order-vegetable-header select {
+  padding: 4px 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  width: 120px;
+  height: 30px;
+
+}
+
+
+.order-vegetable .order-vegetable-con span {
+  display: block;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #000000;
+  font-size: 20px;
+}
+
+.order-vegetable-con ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 400px);
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+
+.order-vegetable-con ul li {
+  /* border: 1px solid #e5e5e5; */
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fafafa;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.order-vegetable-con ul li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 상단 이미지 스타일 */
+.order-vegetable-con ul li .top {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.order-vegetable-con ul li .top img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* 하단 텍스트 부분 스타일 */
+.order-vegetable-con ul li .bottom {
+  padding: 15px;
+  text-align: center;
+  color: #555;
+}
+
+.order-vegetable-con ul li .bottom span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.order-vegetable-con ul li .bottom span:first-child {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.order-vegetable-con ul li .bottom span:nth-child(2) {
+  /* color: #ff6600; */
+
+  font-size: 14px;
+}
+
+.order-vegetable-con ul li .bottom span:nth-child(3) {
+  font-size: 14px;
+  color: #777;
+}
+
+.order-vegetable-con ul li .bottom span:last-child {
+  font-size: 16px;
+  font-weight: bold;
+  color: #009578;
+}
+
+
+
+
+.bottom .delivery-order img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+
+.bottom .delivery-order {
+  display: inline-block;
+  padding-left: 25px;
+  /* 이미지 크기에 따라 여백 조정 */
+  background-image: url('../../../public/images/vegetable/deliveryicon.png');
+  background-size: 20px 20px;
+  /* 이미지 크기를 조정 */
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 20px;
+
+
+}
+
+.order-vegetable .order-vegetable-con .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.order-vegetable .order-vegetable-con .pagination button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.order-vegetable .order-vegetable-con .pagination button.active {
+  background-color: #71787c;
+  color: white;
+}
+
+@media (max-width: 1030px) {
+  .order-vegetable {
+    margin: 150px 10px 20px 10px;
+  }
+
+  .order-vegetable-con ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .order-vtb {
+    height: 200vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .order-vtb {
+    height: 215vh;
+  }
+}
+
+@media (max-width: 450px) {
+  .order-vtb {
+    height: 250vh;
+  }
+}

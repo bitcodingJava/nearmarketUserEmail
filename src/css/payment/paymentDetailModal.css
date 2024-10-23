@@ -1,0 +1,77 @@
+.payment-detail-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+
+.payment-detail-modal .payment-detail-modal-con {
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    position: relative;
+}
+
+.payment-detail-modal .payment-detail-modal-con .close {
+    padding: 10px;
+    background-color: #ff0000;
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.payment-detail-modal .payment-detail-modal-con label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.payment-detail-modal .payment-detail-modal-con input,
+.payment-detail-modal-con select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.payment-detail-modal .payment-detail-modal-con .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-detail-modal .payment-detail-modal-con .buttons button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.payment-detail-modal .payment-detail-modal-con button:last-child {
+    background-color: rgb(102, 111, 116);
+}
+
+/* .payment-detail-modal .payment-detail-modal-con button:hover {
+    background-color: #2f3133;
+} */
+
+.payment-detail-modal .payment-detail-modal-con button:last-child:hover {
+    background-color: rgb(57, 58, 59);
+}

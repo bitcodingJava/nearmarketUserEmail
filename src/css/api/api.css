@@ -1,0 +1,92 @@
+.map-con {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 150px - 200px); 
+    padding-top: 130px;
+}
+
+#map {
+    width: 50%;
+    height: 100%; 
+}
+
+.api-right {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow-y: auto; /* 높이가 초과될 경우에만 스크롤 */
+    box-sizing: border-box;
+}
+
+.api-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.api-btn button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.api-btn button:hover {
+    background-color: #0056b3;
+}
+
+.shop-info {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.shop-info img {
+    width: 100%;
+    height: 350px;
+    margin-top: 10px;
+}
+
+.api-info-window {
+    max-width: 200px;  
+    max-height: 150px; 
+    padding: 10px; 
+    font-size: 14px; 
+    white-space: nowrap; /* 줄바꿈 없이 한 줄로 표시 */
+}
+
+
+
+@media (max-width: 1030px) {
+    .map-con {
+        flex-direction: column; 
+        height: auto; 
+    }
+
+    #map {
+        width: 100%; 
+        height: 50vh; 
+    }
+
+    .api-right {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .api-btn {
+        justify-content: center;
+    }
+
+    .shop-info img {
+        height: auto; 
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,250 @@
+@import url(adminLeft.css);
+@import url(adminRight.css);
+@import url(adminMember.css);
+@import url(adminProductsInsert.css);
+@import url(memberModal.css);
+@import url(adminPayment.css);
+@import url(adminCart.css);
+@import url(adminCartModal.css);
+@import url(adminProduct.css);
+@import url(adminShop.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(confirmModal.css);
+
+
+.admin {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+  width: 100%;
+  height: auto;
+}
+
+.admin .admin-con {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin .admin-con span.button{
+  position: absolute;
+  top: -100px;
+
+  border: 1px solid;
+  transition: all 0.3s;
+}
+
+@media (max-width: 1030px){
+  .admin-con {
+    position: relative;
+  }
+  .admin-con .admin-left{
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    z-index: 99;
+    height: calc(100vh - 50px);
+    transition: all 0.3s;
+  }
+  
+  .admin-con .admin-left .admin-left-con{
+    height: calc(100vh - 50px);
+  }
+
+  .admin-con .admin-left .admin-left-con .menu{
+    height: calc(100vh - 50px - 100px);
+  }
+
+  .admin .admin-con span.button{
+    background-color: #dfdfdf;
+    left: 15px;
+    top: 10px;
+    padding: 5px 12px;
+    border-radius: 10px;
+    border: 1px solid #b4b4b4;
+    box-sizing: border-box;
+    position: fixed;
+    cursor: pointer;
+    z-index: 100;
+    transition: all 0.3s;
+  }
+  .admin .admin-con span.button:hover{
+    background-color: black;
+    color: white;
+  }
+}
+
+@media (max-width: 800px){
+  .admin-con .admin-left .admin-left-con .menu{
+    height: calc(100vh - 20px - 100px);
+  }
+}
+
+@media (max-height: 700px){
+  .admin-left .admin-left-con .menu ul{
+    padding: 1vh;
+    gap: 1vh;
+  }
+}
+.admin-index {
+  width: 100%;
+  height: calc(100vh - 50px);
+  background-color: #eeeeee;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-index .admin-index-con {
+  width: 95%;
+  height: 95%;
+
+  box-shadow: 0px 0px 5px #ccc;
+  box-sizing: border-box;
+
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-index .admin-index-con ul {
+  display: grid;
+  grid-template-columns: repeat(4, 15vw);
+  grid-template-rows: repeat(2, 23vh);
+  grid-auto-rows: 23vh;
+  gap: 2vw;
+  transition: all 0.3s;
+}
+
+.admin-index .admin-index-con ul li {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.4s;
+
+  cursor: pointer;
+}
+
+.admin-index .admin-index-con ul li:nth-child(1) {
+  background: url(../../../public/images/admin/member.jpg) no-repeat 50% / cover;
+  filter: grayscale(50%);
+}
+.admin-index .admin-index-con ul li:nth-child(2) {
+  background: url(../../../public/images/admin/adminBest.png) no-repeat 50% / cover;
+  filter: grayscale(50%);
+}
+
+.admin-index .admin-index-con ul li:nth-child(3) {
+  background: url(../../../public/images/admin/adminVegetable.jpg) no-repeat 50% /
+    cover;
+  filter: grayscale(50%);
+}
+
+.admin-index .admin-index-con ul li:nth-child(4) {
+  background: url(../../../public/images/admin/adminMeat.jpg) no-repeat 50% /
+    cover;
+  filter: grayscale(50%);
+}
+
+.admin-index .admin-index-con ul li:nth-child(5) {
+  background: url(../../../public/images/admin/adminFruit.jpg) no-repeat 50% /
+    cover;
+  filter: grayscale(50%);
+}
+
+.admin-index .admin-index-con ul li:nth-child(6) {
+  background: url(../../../public/images/admin/adminSnack.jpg) no-repeat 50% /
+    cover;
+  filter: grayscale(50%);
+}
+
+.admin-index .admin-index-con ul li:nth-child(7) {
+  background: url(../../../public/images/admin/adminCart.jpg) no-repeat 50% /
+    cover;
+  filter: grayscale(50%);
+}
+
+.admin-index .admin-index-con ul li:nth-child(8) {
+  background: url(../../../public/images/admin/adminProdutcsInsert.png)
+    no-repeat 50% / cover;
+  filter: grayscale(50%);
+}
+
+.admin-index .admin-index-con ul li:nth-child(9) {
+  background: url(../../../public/images/admin/adminShop.jpg) no-repeat 50% /
+    cover;
+  filter: grayscale(50%);
+}
+
+.admin-index .admin-index-con ul li:nth-child(10) {
+  background: url(../../../public/images/admin/adminPayment.jpg) no-repeat 50% /
+    cover;
+  filter: grayscale(50%);
+}
+
+.admin-index .admin-index-con ul li:hover {
+  transform: scale(1.04);
+}
+
+.admin-index .admin-index-con ul li p {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.705);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2vw;
+
+  font-weight: bold;
+}
+
+@media (max-width: 1030px){
+  .admin-index .admin-index-con ul {
+    grid-template-columns: repeat(3, 25vw);
+    grid-template-rows: repeat(1, 19vh);
+    grid-auto-rows: 19vh;
+  }
+  .admin-index .admin-index-con ul li p{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 800px){
+  .admin-index .admin-index-con ul {
+    grid-template-columns: repeat(2, 45vw);
+    grid-template-rows: repeat(2, 15vh);
+    grid-auto-rows: 15vh;
+    gap: 1.5vw;
+  }
+  .admin-index .admin-index-con ul li{
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .admin-index .admin-index-con ul li p {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 500px){
+  .admin-index .admin-index-con ul {
+    grid-template-columns: repeat(2, 45vw);
+    grid-template-rows: repeat(2, 15vh);
+    grid-auto-rows: 15vh;
+  }
+}

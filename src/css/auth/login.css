@@ -1,0 +1,162 @@
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+.login {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    /* background-image: url('/public/images/auth/login.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* backdrop-filter: blur(30px); */
+
+
+}
+
+.login .login-con {
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.login .login-con h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: white;
+
+}
+
+.login .login-con ul li {
+    margin-bottom: 15px;
+}
+
+.login .login-con ul li input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.89);
+    border-radius: 40px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+
+.login .login-con ul li:first-child input {
+    background-image: url(/public/images/auth/member.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    padding-left: 40px;
+
+}
+
+.login .login-con ul li:nth-child(2) input {
+    background-image: url(/public/images/auth/password.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    padding-left: 40px;
+
+
+}
+
+.login .login-con ul li input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #b1b3b6;
+    outline: none;
+}
+
+.login .login-con ul li button {
+    width: 100%;
+    padding: 12px;
+    background-color: #696e6e;
+
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login .login-con ul li button:hover {
+    background-color: #87898b;
+}
+
+.login .login-con ul li button:last-child {
+    background-color: #373a3a;
+    background-image: url(/public/images/auth/home.png);
+    background-repeat: no-repeat;
+    background-position: 150px center;
+    background-size: 20px;
+
+}
+
+.login .login-con ul li button:last-child:hover {
+    background-color: #444749;
+}
+
+
+@media screen and (max-width: 1030px) {
+    .login .login-con {
+        width: 300px;
+    }
+
+    .login .login-con h1 {
+        font-size: 24px;
+    }
+
+    .login .login-con ul li input[type="text"],
+    input[type="password"] {
+        font-size: 14px;
+    }
+
+    .login .login-con ul li button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .login {
+        flex-direction: column;
+    }
+
+    .login .login-con {
+        width: 250px;
+        padding: 20px;
+    }
+
+    .login .login-con h1 {
+        font-size: 20px;
+    }
+
+    .login .login-con ul li input[type="text"],
+    input[type="password"] {
+        font-size: 12px;
+    }
+
+    .login .login-con ul li button {
+        padding: 8px;
+        font-size: 12px;
+    }
+}

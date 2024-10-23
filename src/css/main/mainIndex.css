@@ -1,0 +1,291 @@
+@import url(common/mainHeader.css);
+@import url(common/mainFooter.css);
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: url('../../../public/images/main-img/main.jpg') no-repeat 50%/cover;
+  padding-top: 130px;
+  background-attachment: fixed;
+}
+
+.main .main-sec {
+  flex: 0 1 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(255, 255, 255, 0.3);
+
+  padding: 1vw;
+
+  gap: 3vw;
+  transition: all 0.3s;
+}
+
+.main .main-sec .section1 {
+  /* 1280px */
+  width: 70vw;
+  height: 50vh;
+
+  position: relative;
+
+  /* border: 1px solid; */
+  box-sizing: border-box;
+
+  overflow: hidden;
+
+  /* box-shadow: inset 0 -2px 0px #ccc; */
+
+  border-radius: 1vw;
+
+  transition: all 0.3s;
+}
+
+.main .main-sec .section1 .bCon {
+  width: 100%;
+  height: 70px;
+
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 1vw;
+
+  /* border: 1px solid; */
+  box-sizing: border-box;
+
+}
+
+.main .main-sec .section1 .bCon button {
+  width: 70px;
+  height: 70px;
+
+  border-radius: 10px;
+  border: 0;
+
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.315);
+
+  font-size: 50px;
+  transition: all 0.3s;
+}
+
+.main .main-sec .section1 .bCon button:hover {
+  background-color: rgba(0, 0, 0, 0.37);
+  color: white;
+}
+
+.main .main-sec .section1 .bottomBar {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+
+  padding: 1vw 0;
+
+  /* border: 1px solid; */
+}
+
+.main .main-sec .section1 .bottomBar>ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0);
+  gap: 10px;
+}
+
+.main .main-sec .section1 .bottomBar>ul>li {
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.288);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.main .main-sec .section1 .bottomBar ul li:hover {
+  background-color: rgba(0, 0, 0, 0.432) !important;
+}
+
+.autoGallery {
+  width: 400%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+}
+
+.autoGallery ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.autoGallery ul li {
+  width: 80vw;
+  flex: 1;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  /* border: 2px solid #ff00ff; */
+  transition: all 1s;
+  filter: grayscale(20%);
+}
+
+.autoGallery ul li:nth-child(1) {
+  background: url(/public/images/main-img/mart1.jpg) no-repeat 50%/cover;
+}
+
+.autoGallery ul li:nth-child(2) {
+  background: url(../../../public/images/main-img/mart2.jpg) no-repeat 50%/cover;
+}
+
+.autoGallery ul li:nth-child(3) {
+  background: url(../../../public/images/main-img/mart3.jpg) no-repeat 50%/cover;
+}
+
+.autoGallery ul li:nth-child(4) {
+  background: url(../../../public/images/main-img/mart4.jpg) no-repeat 50%/cover;
+}
+
+.main .main-sec .horizontal {
+  width: 80vw;
+  height: 3px;
+  background-color: rgba(0, 0, 0, 0.09);
+}
+
+.main .main-sec .section2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.main .main-sec .section2 .sec2-con {
+  width: auto;
+}
+
+.main .main-sec .section2 .sec2-con>ul {
+  display: grid;
+  grid-template-columns: repeat(4, 10vmax);
+  grid-template-rows: repeat(1, 10vmax);
+  grid-auto-rows: 10vw;
+
+  gap: 5vw;
+
+  /* border: 1px solid; */
+  transition: all 0.3s;
+}
+
+.main .main-sec .section2 .sec2-con>ul>li {
+  border: 1px solid;
+  box-sizing: border-box;
+
+  border: 1px solid rgb(214, 214, 214);
+  background-color: rgba(247, 247, 247, 0.774);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+.main .main-sec .section2 .sec2-con>ul>li:hover {
+  box-shadow: inset 0 0 2px rgb(163, 0, 0);
+  border: 3px solid rgb(163, 0, 0);
+  box-sizing: border-box;
+  transform: scale(1.1);
+}
+
+
+.main .main-sec .section2 .sec2-con>ul>li .top {
+  width: 5vw;
+  height: auto;
+}
+
+.main .main-sec .section2 .sec2-con>ul>li .top img {
+  width: 100%;
+  display: block;
+}
+
+.main .main-sec .section2 .sec2-con>ul>li .bottom {
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+@media (max-width: 1030px) {
+  .main .main-sec .section1 {
+    width: 85vw;
+  }
+
+  .main .main-sec .section2 .sec2-con>ul {
+    display: grid;
+    grid-template-columns: repeat(4, 15vmax);
+    grid-template-rows: repeat(1, 15vmax);
+    grid-auto-rows: 10vw;
+    gap: 3vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .main .main-sec {
+    flex: 0 1 100%;
+  }
+
+  .main .main-sec .section1 {
+    width: 90vw;
+    height: 300px;
+  }
+
+  .main .main-sec .section1 .bCon button {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .main .main-sec .section2 .sec2-con>ul {
+    grid-template-columns: repeat(2, 30vw);
+    grid-template-rows: repeat(2, 30vw);
+    grid-auto-rows: 30vw;
+    gap: 6vw;
+  }
+
+  .main .main-sec .section2 .sec2-con>ul li {
+    gap: 0px;
+  }
+
+  .main .main-sec .section2 .sec2-con>ul>li .top {
+    width: 15vw;
+    height: auto;
+  }
+
+  .main .main-sec .section2 .sec2-con>ul>li .top img {
+    width: 100%;
+    display: block;
+  }
+
+  .main .main-sec .section2 .sec2-con>ul>li .bottom {
+    font-size: 16px;
+  }
+}
