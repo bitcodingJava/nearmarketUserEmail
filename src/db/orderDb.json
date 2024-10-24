@@ -6,7 +6,7 @@
       "img": "f0.jpg",
       "description": "특유의 단맛과 상큼한 딸기",
       "id": "1",
-      "viewcount": 22
+      "viewcount": 23
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "price": 4900,
       "img": "f1.jpg",
       "description": "새콤달콤 아삭아삭 사과",
-      "viewcount": 43
+      "viewcount": 45
     },
     {
       "id": "3",
@@ -105,7 +105,7 @@
         "corn4.jpg",
         "corn5.jpg"
       ],
-      "viewcount": 62
+      "viewcount": 63
     },
     {
       "id": "3",
@@ -121,7 +121,7 @@
         "onion4.jpg",
         "onion5.jpg"
       ],
-      "viewcount": 16
+      "viewcount": 17
     },
     {
       "id": "4",
@@ -150,7 +150,7 @@
         "pumkin2.jpg",
         "pumkin3.jpg"
       ],
-      "viewcount": 21
+      "viewcount": 23
     },
     {
       "id": "6",
@@ -191,7 +191,7 @@
       "price": 1000,
       "img": "s1.jpeg",
       "description": "먹태깡 청양마요 맛 느끼하지않아서 계속 먹을수있습니다.",
-      "viewcount": 96
+      "viewcount": 97
     },
     {
       "title": "초코송이",
@@ -223,7 +223,7 @@
       "price": 1000,
       "img": "s5.jpg",
       "description": "콘칩 보다 얇아서 좋아여",
-      "viewcount": 47
+      "viewcount": 49
     },
     {
       "id": "7",
@@ -249,7 +249,7 @@
       "img": "meat2.jpg",
       "description": "주물럭과 구이에는 역시 목살!",
       "id": "2",
-      "viewcount": 6
+      "viewcount": 7
     },
     {
       "id": "3",
@@ -273,7 +273,7 @@
       "price": 19500,
       "img": "meat5.jpg",
       "description": "깊은 감칠맛의 엄선된 1++ 한우",
-      "viewcount": 14
+      "viewcount": 16
     },
     {
       "title": "국내산 삼겹살 수육용",
@@ -352,6 +352,16 @@
       "address": "green",
       "phoneNumber": "1234",
       "role": "ROLE_ADMIN"
+    },
+    {
+      "id": "3cba",
+      "userEmail": "admin55@naver.com",
+      "userPw": "1234",
+      "age": "11",
+      "userName": "koc",
+      "address": "green",
+      "phoneNumber": "010-1234-1234",
+      "role": "ROLE_MEMBER"
     }
   ],
   "payment": [
